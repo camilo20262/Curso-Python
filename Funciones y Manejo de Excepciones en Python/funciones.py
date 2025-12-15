@@ -1,4 +1,5 @@
-def saludar(name):
-    print("hola ",name)
+def saludar(name,apellido=" "):
+    print("hola ",name, apellido)
 
-saludar("camilo")
+saludar("camilo","diaz")
+saludar("carolina")
